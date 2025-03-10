@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		63D584252D7E4154006CFF0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63D5840A2D7E4151006CFF0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63D584112D7E4151006CFF0F;
+			remoteInfo = "Poker-Probability-Calculator";
+		};
+		63D5842F2D7E4154006CFF0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63D5840A2D7E4151006CFF0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63D584112D7E4151006CFF0F;
+			remoteInfo = "Poker-Probability-Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63D584122D7E4151006CFF0F /* Poker-Probability-Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Poker-Probability-Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D584242D7E4154006CFF0F /* Poker-Probability-CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Poker-Probability-CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D5842E2D7E4154006CFF0F /* Poker-Probability-CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Poker-Probability-CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		63D584142D7E4151006CFF0F /* Poker-Probability-Calculator */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Poker-Probability-Calculator";
+			sourceTree = "<group>";
+		};
+		63D584272D7E4154006CFF0F /* Poker-Probability-CalculatorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Poker-Probability-CalculatorTests";
+			sourceTree = "<group>";
+		};
+		63D584312D7E4154006CFF0F /* Poker-Probability-CalculatorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Poker-Probability-CalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63D5840F2D7E4151006CFF0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D584212D7E4154006CFF0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D5842B2D7E4154006CFF0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63D584092D7E4151006CFF0F = {
+			isa = PBXGroup;
+			children = (
+				63D584142D7E4151006CFF0F /* Poker-Probability-Calculator */,
+				63D584272D7E4154006CFF0F /* Poker-Probability-CalculatorTests */,
+				63D584312D7E4154006CFF0F /* Poker-Probability-CalculatorUITests */,
+				63D584132D7E4151006CFF0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63D584132D7E4151006CFF0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63D584122D7E4151006CFF0F /* Poker-Probability-Calculator.app */,
+				63D584242D7E4154006CFF0F /* Poker-Probability-CalculatorTests.xctest */,
+				63D5842E2D7E4154006CFF0F /* Poker-Probability-CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63D584112D7E4151006CFF0F /* Poker-Probability-Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D584382D7E4154006CFF0F /* Build configuration list for PBXNativeTarget "Poker-Probability-Calculator" */;
+			buildPhases = (
+				63D5840E2D7E4151006CFF0F /* Sources */,
+				63D5840F2D7E4151006CFF0F /* Frameworks */,
+				63D584102D7E4151006CFF0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				63D584142D7E4151006CFF0F /* Poker-Probability-Calculator */,
+			);
+			name = "Poker-Probability-Calculator";
+			packageProductDependencies = (
+			);
+			productName = "Poker-Probability-Calculator";
+			productReference = 63D584122D7E4151006CFF0F /* Poker-Probability-Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63D584232D7E4154006CFF0F /* Poker-Probability-CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D5843B2D7E4154006CFF0F /* Build configuration list for PBXNativeTarget "Poker-Probability-CalculatorTests" */;
+			buildPhases = (
+				63D584202D7E4154006CFF0F /* Sources */,
+				63D584212D7E4154006CFF0F /* Frameworks */,
+				63D584222D7E4154006CFF0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63D584262D7E4154006CFF0F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				63D584272D7E4154006CFF0F /* Poker-Probability-CalculatorTests */,
+			);
+			name = "Poker-Probability-CalculatorTests";
+			packageProductDependencies = (
+			);
+			productName = "Poker-Probability-CalculatorTests";
+			productReference = 63D584242D7E4154006CFF0F /* Poker-Probability-CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63D5842D2D7E4154006CFF0F /* Poker-Probability-CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D5843E2D7E4154006CFF0F /* Build configuration list for PBXNativeTarget "Poker-Probability-CalculatorUITests" */;
+			buildPhases = (
+				63D5842A2D7E4154006CFF0F /* Sources */,
+				63D5842B2D7E4154006CFF0F /* Frameworks */,
+				63D5842C2D7E4154006CFF0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63D584302D7E4154006CFF0F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				63D584312D7E4154006CFF0F /* Poker-Probability-CalculatorUITests */,
+			);
+			name = "Poker-Probability-CalculatorUITests";
+			packageProductDependencies = (
+			);
+			productName = "Poker-Probability-CalculatorUITests";
+			productReference = 63D5842E2D7E4154006CFF0F /* Poker-Probability-CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63D5840A2D7E4151006CFF0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					63D584112D7E4151006CFF0F = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					63D584232D7E4154006CFF0F = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 63D584112D7E4151006CFF0F;
+					};
+					63D5842D2D7E4154006CFF0F = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 63D584112D7E4151006CFF0F;
+					};
+				};
+			};
+			buildConfigurationList = 63D5840D2D7E4151006CFF0F /* Build configuration list for PBXProject "Poker-Probability-Calculator" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63D584092D7E4151006CFF0F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 63D584132D7E4151006CFF0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63D584112D7E4151006CFF0F /* Poker-Probability-Calculator */,
+				63D584232D7E4154006CFF0F /* Poker-Probability-CalculatorTests */,
+				63D5842D2D7E4154006CFF0F /* Poker-Probability-CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63D584102D7E4151006CFF0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D584222D7E4154006CFF0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D5842C2D7E4154006CFF0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63D5840E2D7E4151006CFF0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D584202D7E4154006CFF0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D5842A2D7E4154006CFF0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63D584262D7E4154006CFF0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63D584112D7E4151006CFF0F /* Poker-Probability-Calculator */;
+			targetProxy = 63D584252D7E4154006CFF0F /* PBXContainerItemProxy */;
+		};
+		63D584302D7E4154006CFF0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63D584112D7E4151006CFF0F /* Poker-Probability-Calculator */;
+			targetProxy = 63D5842F2D7E4154006CFF0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		63D584362D7E4154006CFF0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63D584372D7E4154006CFF0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63D584392D7E4154006CFF0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Poker-Probability-Calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = 3233SGWND8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ergames.Poker-Probability-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63D5843A2D7E4154006CFF0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Poker-Probability-Calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = 3233SGWND8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ergames.Poker-Probability-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63D5843C2D7E4154006CFF0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3233SGWND8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ergames.Poker-Probability-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poker-Probability-Calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Poker-Probability-Calculator";
+			};
+			name = Debug;
+		};
+		63D5843D2D7E4154006CFF0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3233SGWND8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ergames.Poker-Probability-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poker-Probability-Calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Poker-Probability-Calculator";
+			};
+			name = Release;
+		};
+		63D5843F2D7E4154006CFF0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3233SGWND8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ergames.Poker-Probability-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Poker-Probability-Calculator";
+			};
+			name = Debug;
+		};
+		63D584402D7E4154006CFF0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3233SGWND8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ergames.Poker-Probability-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Poker-Probability-Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63D5840D2D7E4151006CFF0F /* Build configuration list for PBXProject "Poker-Probability-Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D584362D7E4154006CFF0F /* Debug */,
+				63D584372D7E4154006CFF0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D584382D7E4154006CFF0F /* Build configuration list for PBXNativeTarget "Poker-Probability-Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D584392D7E4154006CFF0F /* Debug */,
+				63D5843A2D7E4154006CFF0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D5843B2D7E4154006CFF0F /* Build configuration list for PBXNativeTarget "Poker-Probability-CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D5843C2D7E4154006CFF0F /* Debug */,
+				63D5843D2D7E4154006CFF0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D5843E2D7E4154006CFF0F /* Build configuration list for PBXNativeTarget "Poker-Probability-CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D5843F2D7E4154006CFF0F /* Debug */,
+				63D584402D7E4154006CFF0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63D5840A2D7E4151006CFF0F /* Project object */;
+}
