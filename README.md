@@ -30,4 +30,3 @@ Math Calculator
 **Master poker math and probability. Download Poker Math Calculator today and improve your strategic understanding of the game.**
 
 
-# Images
